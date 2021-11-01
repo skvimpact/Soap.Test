@@ -19,7 +19,6 @@ namespace Soap.Test
 
             //envelope.Request();
 //            Console.WriteLine(envelope);
-            Debug.WriteLine(envelope);
             Debug.WriteLine("That is good");
             Debug.WriteLine("That is good 2");
         }
