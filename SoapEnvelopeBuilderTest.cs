@@ -14,8 +14,6 @@ namespace Soap.Test
                     .CallMethod("UpdateLiquidityLevel")
                         .WithParameter("updateLiquidityLevelRq", Base64.Encode("8hi7ttfjtgbh"))
                 .Envelope();
-                //.Send("http://xxxxxxxxx/Service1.asmx",
-                //      "http://xxxxxxxx/Service1.asmx?op=HelloWorld");
             Debug.WriteLine(envelope);
         }
     }
